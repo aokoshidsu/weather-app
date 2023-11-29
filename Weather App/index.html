@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Виджет Погоды</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-info">
+            <div class="pic-gradient"></div>
+            <div class="today-info">
+                <h2>Пятница</h2>
+                <span>21 Июля 2023</span>
+                <div>
+                    <i class='bx bx-current-location'></i>
+                    <span>Ижевск, РФ</span>
+                </div>
+            </div>
+            <div class="today-weather">
+                <i class='bx bx-sun' ></i>
+                <h1 class="weather-temp">
+                    50°C
+                </h1>
+                <h3>Солнечно</h3>
+            </div>
+        </div>
+
+        <div class="right-info">
+            <div class="full-day-info">
+            <div class="day-info">
+                <span class="title">ДАВЛЕНИЕ</span>
+                <span class="value">1021</span>
+            </div>
+            <div class="day-info">
+                <span class="title">ВЛАЖНОСТЬ</span>
+                <span class="value">63 %</span>
+            </div>
+            <div class="day-info">
+                <span class="title">СКОРОСТЬ ВЕТРА</span>
+                <span class="value">2 м/с</span>
+            </div>
+        </div>
+
+        <ul class="days-list">
+            <li>
+                <i class='bx bx-cloud'></i>
+                <span>Сб</span>
+                <span class="day-temp">30°C</span>
+            </li>
+            <li>
+                <i class='bx bx-cloud-light-rain' ></i>
+                <span>Вс</span>
+                <span class="day-temp">30°C</span>
+            </li>
+            <li>
+                <i class='bx bx-cloud-rain' ></i>
+                <span>Пн</span>
+                <span class="day-temp">30°C</span>
+            </li>
+            <li>
+                <i class='bx bx-sun' ></i>
+                <span>Вт</span>
+                <span class="day-temp">30°C</span>
+            </li>
+        </ul>
+
+        <div class="btn-container">
+            <button class="loc-button">Поиск местоположения</button>
+        </div>
+    </div>
+
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
